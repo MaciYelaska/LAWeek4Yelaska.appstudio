@@ -31,3 +31,10 @@ Hint: use the .length method with the arrayname.
 */
 
 console.log(withSal.length)
+
+/*
+Remove the last name in the array by using the method .pop(). 
+Hint: .pop() works just like .push() except it pops the last item off the array so you can put it into a variable. Also, it doesn't need anything between its' parentheses.
+*/
+
+withSal.pop()
