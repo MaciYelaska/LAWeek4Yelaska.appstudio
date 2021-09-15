@@ -12,6 +12,7 @@ Hint: in Javascript, what would happen if you set 'withSal' equal to 'petNames',
 */
 
 let withSal = petNames.push('Sal')
+withSal = petNames
 console.log(petNames)
 
 /*
@@ -21,4 +22,12 @@ Hint: Remember, array indices start at 0, not 1. To indicate an item in an array
          arrayName[i]   where i is the index of the item you want
 */
 
-console.log(petNames[2])
+console.log(`The third pet is named ${petNames[2]}.`)
+
+/*
+Get a count of how many items are in the 'withSal' array and output it to the console in the form: 
+      The array has X names in it. 
+Hint: use the .length method with the arrayname. 
+*/
+
+console.log(withSal.length)
