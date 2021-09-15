@@ -13,3 +13,12 @@ Hint: in Javascript, what would happen if you set 'withSal' equal to 'petNames',
 
 let withSal = petNames.push('Sal')
 console.log(petNames)
+
+/*
+Get the third name in the 'pets' array and output it to the console using this format: 
+    The third pet is named XXXX. 
+Hint: Remember, array indices start at 0, not 1. To indicate an item in an array, use this format: 
+         arrayName[i]   where i is the index of the item you want
+*/
+
+console.log(petNames[2])
