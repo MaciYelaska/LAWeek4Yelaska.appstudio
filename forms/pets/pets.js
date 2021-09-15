@@ -30,11 +30,11 @@ Get a count of how many items are in the 'withSal' array and output it to the co
 Hint: use the .length method with the arrayname. 
 */
 
-console.log(withSal.length)
+console.log(`The array has ${withSal.length} names in it.`)
 
 /*
 Remove the last name in the array by using the method .pop(). 
 Hint: .pop() works just like .push() except it pops the last item off the array so you can put it into a variable. Also, it doesn't need anything between its' parentheses.
 */
 
-withSal.pop()
+// withSal.pop()
